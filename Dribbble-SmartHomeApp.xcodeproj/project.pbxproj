@@ -13,6 +13,11 @@
 		093903C524D067D50013B326 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093903C424D067D50013B326 /* Preview Assets.xcassets */; };
 		093903D024D067D50013B326 /* Dribbble_SmartHomeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093903CF24D067D50013B326 /* Dribbble_SmartHomeAppTests.swift */; };
 		093903DB24D067D50013B326 /* Dribbble_SmartHomeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093903DA24D067D50013B326 /* Dribbble_SmartHomeAppUITests.swift */; };
+		093903E924D0697F0013B326 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093903E824D0697F0013B326 /* CardData.swift */; };
+		093903EB24D06B1D0013B326 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093903EA24D06B1D0013B326 /* Home.swift */; };
+		093903ED24D0713D0013B326 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093903EC24D0713D0013B326 /* HomePage.swift */; };
+		093903F124D071790013B326 /* CardItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093903F024D071790013B326 /* CardItemData.swift */; };
+		093903F324D071800013B326 /* CardItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093903F224D071800013B326 /* CardItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		093903D624D067D50013B326 /* Dribbble-SmartHomeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dribbble-SmartHomeAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		093903DA24D067D50013B326 /* Dribbble_SmartHomeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dribbble_SmartHomeAppUITests.swift; sourceTree = "<group>"; };
 		093903DC24D067D50013B326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093903E824D0697F0013B326 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		093903EA24D06B1D0013B326 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		093903EC24D0713D0013B326 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		093903F024D071790013B326 /* CardItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardItemData.swift; sourceTree = "<group>"; };
+		093903F224D071800013B326 /* CardItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				093903BD24D067D40013B326 /* Dribbble_SmartHomeAppApp.swift */,
-				093903BF24D067D40013B326 /* ContentView.swift */,
+				093903EC24D0713D0013B326 /* HomePage.swift */,
+				093903F024D071790013B326 /* CardItemData.swift */,
+				093903F224D071800013B326 /* CardItemView.swift */,
+				093903EF24D071630013B326 /* TestingGroup */,
 				093903C124D067D50013B326 /* Assets.xcassets */,
 				093903C624D067D50013B326 /* Info.plist */,
 				093903C324D067D50013B326 /* Preview Content */,
@@ -128,6 +141,16 @@
 				093903DC24D067D50013B326 /* Info.plist */,
 			);
 			path = "Dribbble-SmartHomeAppUITests";
+			sourceTree = "<group>";
+		};
+		093903EF24D071630013B326 /* TestingGroup */ = {
+			isa = PBXGroup;
+			children = (
+				093903E824D0697F0013B326 /* CardData.swift */,
+				093903EA24D06B1D0013B326 /* Home.swift */,
+				093903BF24D067D40013B326 /* ContentView.swift */,
+			);
+			path = TestingGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +282,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				093903F124D071790013B326 /* CardItemData.swift in Sources */,
+				093903F324D071800013B326 /* CardItemView.swift in Sources */,
+				093903ED24D0713D0013B326 /* HomePage.swift in Sources */,
+				093903E924D0697F0013B326 /* CardData.swift in Sources */,
 				093903C024D067D40013B326 /* ContentView.swift in Sources */,
+				093903EB24D06B1D0013B326 /* Home.swift in Sources */,
 				093903BE24D067D40013B326 /* Dribbble_SmartHomeAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
